@@ -1,12 +1,18 @@
 .profile-container {
     text-align: center;
-    font-family: Arial, sans-serif;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 8px;
-    width: 250px;
+    width: 200px;
     margin: 20px auto;
     padding-top: 5px;
+    overflow: hidden;
     background-color: #f9f9f9;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-avatar {
@@ -27,8 +33,10 @@
 }
 
 .profile-list {
+    background-color: lightgray;
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     
@@ -36,6 +44,7 @@
 
 .profile-list li {
     text-align: center;
+    border: 1px solid;
     width: 100%;
 }
 
